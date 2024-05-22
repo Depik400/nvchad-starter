@@ -24,9 +24,11 @@ require("lazy").setup({
       require "options"
     end,
   },
-
+  
   { import = "plugins" },
 }, lazy_config)
+
+
 
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
